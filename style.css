@@ -76,6 +76,7 @@ margin-left: 1em;
   font-weight: 900;
 }
 .result > p {
+  line-height: 2;
   color:  black;
   word-spacing: 5px;
   font-size: 18px;
@@ -83,7 +84,6 @@ margin-left: 1em;
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .result > .motiv {
-  font-weight: 600;
   font-style: italic;
   padding: 10px;
   color: black;
@@ -115,7 +115,7 @@ margin-left: 1em;
   word-spacing: 0.001em;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
-  line-height: 1.7;
+  line-height: 2;
 }
 .slide {
   position:relative;
@@ -171,6 +171,7 @@ margin-left: 1em;
   color: blueviolet;
 }
 .motto > p {
+  line-height: 2;
   font-style: italic;
   padding: 10px;
   color: black;
@@ -182,6 +183,7 @@ margin-left: 1em;
 }
 
 .we > p {
+  line-height: 2;
   color: rgb(46, 44, 44);
   word-spacing: 4px;
   font-size: 18px;
