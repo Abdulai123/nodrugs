@@ -13,7 +13,7 @@ $fullname = $firstname.' '.$lastname;
 
 //validation
 if (empty($firstname) || empty($lastname) || empty($email) || empty($country)) {
-    echo "FullName, Email and Country is mandatory"; exit;
+    echo "FullName, Email and Country is mandatory"; exit();
 }
 
 $email_form = 'babdulai149@gamil.com';

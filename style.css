@@ -3,6 +3,7 @@ body {
   padding: 0;
   background-color: white;
   size: box-border;
+  color: rgb(24, 18, 18);
 }
 .dis {
   padding: 1em;
@@ -11,12 +12,22 @@ body {
   font-weight: 900;
   font-size: 25px;
 }
-.dis > p {
+.dis > .sec-sub {
+  margin-left: 1em;
   color: black;
-  word-spacing: 5px;
-  font-size: 18px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  word-spacing: 0.001em;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  line-height: 1.6;
+}
+.sub-title{
+  margin-left: 2em;
+  color: black;
+  font-weight: 500;
+  word-spacing: 0.001em;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
 }
 .dis > button {
   padding: 15px;
@@ -35,12 +46,13 @@ body {
   margin-left: 1em;
 }
 .what > p {
-  padding: 10px;
+  margin-left: 2em;
   color: black;
-  word-spacing: 5px;
-  font-size: 18px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  word-spacing: 0.001em;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  line-height: 1.8;
 }
 .programs > h2{
 margin-left: 1em;
@@ -48,6 +60,11 @@ margin-left: 1em;
 .programs > ul > li {
   font-size: 25px;
   margin-left: 1em;
+  color: black;
+  font-weight: 300;
+  word-spacing: 0.001em;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
 }
 .result {
   padding: 1em;
@@ -59,13 +76,14 @@ margin-left: 1em;
   font-weight: 900;
 }
 .result > p {
-  color: black;
+  color:  black;
   word-spacing: 5px;
   font-size: 18px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .result > .motiv {
+  font-weight: 600;
   font-style: italic;
   padding: 10px;
   color: black;
@@ -73,16 +91,18 @@ margin-left: 1em;
   font-size: 18px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    line-height: 2;
 }
 .parent {
   padding: 1em;
 }
 .parent p {
   color: black;
-  word-spacing: 5px;
-  font-size: 18px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  word-spacing: 0.001em;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  line-height: 2;
 }
 .join {
   padding: 1rem;
@@ -91,11 +111,11 @@ margin-left: 1em;
 }
 .join > p {
   color: black;
-  font-weight: 600;
-  word-spacing: 5px;
-  font-size: 18px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  word-spacing: 0.001em;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  line-height: 1.7;
 }
 .slide {
   position:relative;
@@ -148,6 +168,7 @@ margin-left: 1em;
 }
 .motto > h2 {
   padding: 1em;
+  color: blueviolet;
 }
 .motto > p {
   font-style: italic;
@@ -161,27 +182,33 @@ margin-left: 1em;
 }
 
 .we > p {
-  color: white;
+  color: rgb(46, 44, 44);
   word-spacing: 4px;
   font-size: 18px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 footer {
-  background-color: rgb(32, 32, 32);
-  color: white;
+  background-color: orange;
+  color: rgb(36, 34, 34);
   padding: 3em;
 }
 .abt-us > a {
-  color: white;
+  color: rgb(46, 44, 44);
   text-decoration: none;
   font-size: 1.2rem;
 }
 .abt-us {
   margin-bottom: 1rem;
+  font-weight: 300;
+  word-spacing: 0.001em;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
 }
 .donations > a{
-  color: white;
+  color: rgb(46, 44, 44);
   text-decoration: none;
   font-size: 1.2rem;
 }
