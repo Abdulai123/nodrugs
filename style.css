@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  size: box-border;
+}
+.dis {
+  padding: 1em;
+}
+.dis > h2 {
+  font-weight: 900;
+  font-size: 25px;
+}
+.dis > p {
+  color: black;
+  word-spacing: 5px;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.dis > button {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: blue;
+  border: none;
+}
+.dis > button > a {
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 1em;
+}
+.what > h2{
+  margin-left: 1em;
+}
+.what > p {
+  padding: 10px;
+  color: black;
+  word-spacing: 5px;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.programs > h2{
+margin-left: 1em;
+}
+.programs > ul > li {
+  font-size: 25px;
+  margin-left: 1em;
+}
+.result {
+  padding: 1em;
+  background-color: #eee;
+  border-radius: 5px;
+}
+.result > h2 {
+  color: blueviolet;
+  font-weight: 900;
+}
+.result > p {
+  color: black;
+  word-spacing: 5px;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.result > .motiv {
+  font-style: italic;
+  padding: 10px;
+  color: black;
+  word-spacing: 5px;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.parent {
+  padding: 1em;
+}
+.parent p {
+  color: black;
+  word-spacing: 5px;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.join {
+  padding: 1rem;
+  color: blueviolet;
+  border-radius: 20px;
+}
+.join > p {
+  color: black;
+  font-weight: 600;
+  word-spacing: 5px;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.slide {
+  position:relative;
+}
+.text{
+  position: absolute;
+  bottom: 12rem;
+  left: 1em;
+  font-size: 35px;
+  font-weight: 800;
+  color: #eee;
+  font-style: oblique;
+}
+.slide > span{
+  position: absolute;
+  bottom: 10rem;
+  left: 1em;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  font-style: oblique;
+}
+.next {
+  padding: 1rem;
+}
+.next > p {
+  color: black;
+  word-spacing: 5px;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.book-now {
+  padding: 1em;
+}
+.book-now > p {
+  font-size: 18px;
+}
+.book-now > button {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: blue;
+  border: none;
+}
+.book-now > button > a {
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+  color: white;
+}
+.motto > h2 {
+  padding: 1em;
+}
+.motto > p {
+  font-style: italic;
+  padding: 10px;
+  color: black;
+  font-weight: 600;
+  word-spacing: 5px;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.we > p {
+  color: white;
+  word-spacing: 4px;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+footer {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  padding: 3em;
+}
+.abt-us > a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.abt-us {
+  margin-bottom: 1rem;
+}
+.donations > a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.copyright {
+  border-top: 2px solid white;
+  font-size: medium;
+  font-style: italic;
+  padding: 10px;
+  margin-top: 1rem;
+  text-align: center;
+}
+@media screen and (max-width: 500px){
+  .text{
+    font-size: 30px;
+    font-weight: 800;
+    color: #eee;
+    font-style: oblique;
+  }
+  .slide > span{
+    bottom: 9rem;
+    font-size: 17px;
+    font-weight: 600;
+  }
+}

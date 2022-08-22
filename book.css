@@ -1,0 +1,65 @@
+body{
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    background-color: #eee;
+    margin: auto;
+    justify-content: center;
+}
+.fill{
+    text-align: center;
+    border-bottom: 2px solid cyan;
+}
+input{
+    padding: 1em;
+    margin-top: 1em;
+    margin-left: 5rem;
+    border: none;
+    border-bottom: 5px solid rebeccapurple;
+    border-radius: 5px;
+    font-size: 17px;
+    outline-style: none;
+}
+textarea{
+    border: 3px solid rebeccapurple;
+    font-size: 17px;
+    outline-style: none;
+    margin-left: 5rem;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+.submit > button{
+    margin-left: 5rem;
+    margin-top: 1em;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+}
+
+@media screen  and (max-width: 800px){
+    .main-container{
+        display: block;
+        background-color: #eee;
+        margin: auto;
+        justify-content: center;
+    }
+    input{
+        margin-left: 10px;
+    }
+    textarea{
+        margin-left: 10px;
+    }
+    .submit > button{
+        margin-left: 10px;
+        margin-bottom: 2em;
+    }
+}
